@@ -12,7 +12,7 @@ if "%PROJECT%"=="" (
 
 setlocal
 REM Ruta actual
-set "BASE=%CD%"
+set "BASE=%CD%\..\"
 
 REM Crear carpetas
 mkdir "%BASE%\%PROJECT%\0.Client_Info"
